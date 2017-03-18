@@ -9,10 +9,10 @@ var {Link, IndexLink} = require('react-router');
           <ul className="menu">
             <li className="menu-text">React Timer App</li>
             <li>
-              <IndexLink to="/" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>Timer</IndexLink>
+              <IndexLink to="/" activeClassName="active-link">Timer</IndexLink>
             </li>
             <li>
-              <IndexLink to="/" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>Countdown</IndexLink>
+              <IndexLink to="/Countdown" activeClassName="active-link">Countdown</IndexLink>
             </li>
           </ul>
         </div>
